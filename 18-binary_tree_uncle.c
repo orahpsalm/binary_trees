@@ -5,7 +5,7 @@
  * @node: A pointer to the node whose uncle is to be found
  * Return: The uncle
  */
- 
+
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	if (!node || !node->parent || !node->parent->parent)
